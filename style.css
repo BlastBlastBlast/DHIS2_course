@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+Previous custom styles for reference:
 body {
   font-family: Arial, sans-serif;
   margin: 2em;
@@ -19,3 +25,4 @@ button {
 button:hover {
   background: #125299;
 }
+*/
