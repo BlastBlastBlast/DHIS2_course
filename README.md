@@ -4,10 +4,16 @@ This project sets up a simple development environment for learning HTML, CSS, an
 
 ## Key Setup Steps
 
-### 1. Initialize npm and install Vite
+### 1. Initialize npm and install Vite (or use Yarn)
+With npm:
 ```sh
 npm init -y
 npm install vite --save-dev
+```
+With Yarn:
+```sh
+yarn init -y
+yarn add vite --dev
 ```
 
 ### 2. Create starter files
@@ -23,8 +29,13 @@ Add the following to the `scripts` section:
 ```
 
 ### 4. Install Tailwind CSS and dependencies
+With npm:
 ```sh
 npm install -D tailwindcss postcss autoprefixer
+```
+With Yarn:
+```sh
+yarn add -D tailwindcss postcss autoprefixer
 ```
 
 ### 5. Create Tailwind and PostCSS config files
@@ -63,8 +74,13 @@ Replace all contents of `style.css` with:
 (You can add custom CSS below or migrate your styles to Tailwind utility classes.)
 
 ### 7. Run the development server
+With npm:
 ```sh
 npm run dev
+```
+With Yarn:
+```sh
+yarn dev
 ```
 Open the provided `localhost` URL in your browser to see your app live. Edit your HTML and use Tailwind classes for styling.
 
@@ -81,6 +97,7 @@ Open the provided `localhost` URL in your browser to see your app live. Edit you
 - Edit `index.html`, `main.js`, or `style.css`.
 - Use Tailwind utility classes in your HTML for styling.
 - Save your changes and see them update live in your browser.
+- You can use either npm or yarn for installing dependencies and running scripts.
 
 ## Troubleshooting
 - If `npm run dev` does not work, ensure Node.js and npm are installed.
